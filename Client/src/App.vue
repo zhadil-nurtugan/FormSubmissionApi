@@ -34,6 +34,22 @@
               </template>
               <SubmissionsList ref="submissionsListRef" />
             </TabPanel>
+            <TabPanel>
+              <template #header>
+                <span class="flex align-items-center gap-2">
+                  <i class="pi pi-question-circle"></i>
+                  <span>Part2</span>
+                </span>
+              </template>
+                <div style="padding: 1rem; max-height: 600px; overflow:auto; white-space:pre-wrap;">
+                  <h3>{{ $t('part2.title') }}</h3>
+                  <ul>
+                    <li>{{ $t('part2.storeFiles') }}</li>
+                    <li>{{ $t('part2.multipart') }}</li>
+                    <li>{{ $t('part2.queue') }}</li>
+                  </ul>
+                </div>
+            </TabPanel>
           </TabView>
         </template>
       </Card>

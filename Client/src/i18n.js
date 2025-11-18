@@ -53,6 +53,12 @@ const messages = {
       id: 'ID',
       submittedAt: 'Submitted At'
     },
+    part2: {
+      title: 'Overview: storing and downloading large attachments (~100MB)',
+      storeFiles: 'Store files in S3-compatible object storage (e.g. MinIO)',
+      multipart: 'Use multipart / chunked uploads from the frontend',
+      queue: 'Use a processing queue for post-processing (RabbitMQ / SQS / Kafka)'
+    },
     common: {
       yes: 'Yes',
       no: 'No'
@@ -109,6 +115,12 @@ const messages = {
       empty: 'Отправки не найдены.',
       id: 'ID',
       submittedAt: 'Отправлено'
+    },
+    part2: {
+      title: 'Обзор: хранение и скачивание больших вложений (~100MB)',
+      storeFiles: 'Храните файлы в объектном хранилище, совместимом с S3 (например, MinIO)',
+      multipart: 'Используйте multipart/покомпонентную загрузку с фронтента',
+      queue: 'Используйте очередь обработки для постобработки (RabbitMQ / SQS / Kafka)'
     },
     common: {
       yes: 'Да',
@@ -167,6 +179,12 @@ const messages = {
       id: 'ID',
       submittedAt: 'Жіберілген уақыт'
     },
+    part2: {
+      title: 'Overview: storing and downloading large attachments (~100MB)',
+      storeFiles: 'Store files in S3-compatible object storage (e.g. MinIO)',
+      multipart: 'Use multipart / chunked uploads from the frontend',
+      queue: 'Use a processing queue for post-processing (RabbitMQ / SQS / Kafka)'
+    },
     common: {
       yes: 'Иә',
       no: 'Жоқ'
@@ -223,6 +241,12 @@ const messages = {
       empty: 'Yuborilganlar topilmadi.',
       id: 'ID',
       submittedAt: 'Yuborilgan vaqt'
+    },
+    part2: {
+      title: 'Overview: storing and downloading large attachments (~100MB)',
+      storeFiles: 'Store files in S3-compatible object storage (e.g. MinIO)',
+      multipart: 'Use multipart / chunked uploads from the frontend',
+      queue: 'Use a processing queue for post-processing (RabbitMQ / SQS / Kafka)'
     },
     common: {
       yes: 'Ha',
